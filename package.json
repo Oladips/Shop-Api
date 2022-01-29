@@ -1,0 +1,17 @@
+{
+  "name": "dipo_backend",
+  "version": "1.0.0",
+  "description": "My first test backend build",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adedoyin Oladipupo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  }
+}
