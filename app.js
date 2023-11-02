@@ -12,7 +12,7 @@ app.use(express.json);
 app.use('/products', router);
 
 //  Connections and port
-mongoose.connect("mongodb+srv://Admin:01ad1pup0@cluster0.npixp.mongodb.net/shop?retryWrites=true&w=majority"
+mongoose.connect("mongodb+srv://Admin:password@cluster0.npixp.mongodb.net/shop?retryWrites=true&w=majority"
     ,{
         useNewUrlParser: true,
         useUnifiedTopology: true,
